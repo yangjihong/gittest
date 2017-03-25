@@ -13,6 +13,7 @@
 		25D718911E86070D00C8D6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D7188F1E86070D00C8D6EE /* Main.storyboard */; };
 		25D718931E86070D00C8D6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D718921E86070D00C8D6EE /* Assets.xcassets */; };
 		25D718961E86070D00C8D6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D718941E86070D00C8D6EE /* LaunchScreen.storyboard */; };
+		25D7189F1E86082200C8D6EE /* erreunjunj.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D7189E1E86082200C8D6EE /* erreunjunj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		25D718921E86070D00C8D6EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25D718951E86070D00C8D6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25D718971E86070D00C8D6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D7189D1E86082200C8D6EE /* erreunjunj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = erreunjunj.h; sourceTree = "<group>"; };
+		25D7189E1E86082200C8D6EE /* erreunjunj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = erreunjunj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				25D718941E86070D00C8D6EE /* LaunchScreen.storyboard */,
 				25D718971E86070D00C8D6EE /* Info.plist */,
 				25D718861E86070C00C8D6EE /* Supporting Files */,
+				25D7189D1E86082200C8D6EE /* erreunjunj.h */,
+				25D7189E1E86082200C8D6EE /* erreunjunj.m */,
 			);
 			path = gittest;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				25D7188E1E86070C00C8D6EE /* ViewController.m in Sources */,
 				25D7188B1E86070C00C8D6EE /* AppDelegate.m in Sources */,
 				25D718881E86070C00C8D6EE /* main.m in Sources */,
+				25D7189F1E86082200C8D6EE /* erreunjunj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				25D7189C1E86070D00C8D6EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
